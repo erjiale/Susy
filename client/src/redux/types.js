@@ -1,0 +1,27 @@
+// PRODUCT Reducer Types
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+export const ADD_PRODUCT = "ADD_PRODUCT";
+
+// USER Reducer Types
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED";
+export const SET_USER = "SET_USER";
+
+// UI Reducer Types
+export const OPEN_LOGIN = "OPEN_LOGIN";
+export const CLOSE_LOGIN = "CLOSE_LOGIN";
+export const OPEN_REGISTER = "OPEN_REGISTER";
+export const CLOSE_REGISTER = "CLOSE_REGISTER";
+export const OPEN_CART = "OPEN_CART";
+export const CLOSE_CART = "CLOSE_CART";
+export const SET_ERRORS = "SET_ERRORS";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const VERIFY_USER = "VERIFY_USER";
+
+// SHOPPING CART Reducer Types
+export const GET_CART = "GET_CART";
+export const ADD_PRODUCT_TO_CART = "ADD_PRODUCT_TO_CART";
+export const DELETE_PRODUCT_FROM_CART = "DELETE_PRODUCT_FROM_CART";
+export const DELETE_ONE_QUANTITY_FROM_CART = "DELETE_ONE_QUANTITY_FROM_CART";
